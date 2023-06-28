@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { NavMenu } from './Section/NavMenu';
-
+import { OldTime } from './Section/OldTime';
 function App() {
+
+
   return (
     <main>
       <nav>
-        <NavMenu></NavMenu>
+       
       </nav>
     <header>
-      Test
+      
     </header>
       <article>
-
+        <div className='main-content'>
+        <OldTime />
+        </div>
       </article>
       <footer>
 
       </footer>
-      </main>
+
+    </main>
   );
 }
 

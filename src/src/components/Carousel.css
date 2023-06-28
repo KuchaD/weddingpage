@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.carousel {
+    display: block;
+    width: 100%;
+    height: 250px;
+    background: white;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.item {
+    display: inline-block;
+    width: 380px;
+    margin: 0 10px;
+    height: 380px;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+.item div {
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    text-align: center;
+    font-size: 9em;
+    color: white;
+}
+
+.item h1 {
+    top: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 4em;
+}

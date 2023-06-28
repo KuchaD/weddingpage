@@ -1,31 +1,69 @@
 main {
-  display: grid;
-  width: 100%;
-  height: 100vh;
-  grid-template-areas:
-    "nav nav"
-    "head head"
-    "article article"
-    "footer footer";
-  grid-template-rows: 50px 150px 1fr 30px;
-  grid-template-columns: 1fr 1fr;
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 150vh;
+    grid-template-areas: "nav nav" "head head" "article article" "footer footer";
+    grid-template-rows: 50px 150px 1fr 30px;
+    grid-template-columns: 1fr 1fr;
 }
 
-main > header {
-  grid-area: head;
+main>header {
+    grid-area: head;
 }
 
-main > nav {
-  grid-area: nav;
-  background-color: #ffa08c;
+main>nav {
+    grid-area: nav;
+    background-color: transparent;
 }
 
-main > article {
-  grid-area: article;
-  background-color: #ffff64;
+main>article {
+    grid-area: article;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-main > footer {
-  grid-area: footer;
-  background-color: #8cffa0;
+main>footer {
+    grid-area: footer;
+    background-color: #8cffa0;
+}
+
+.image-zoom {
+    transition: 0.5s all ease-in-out;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.image-zoom-out {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 25vw;
+    width: 50vw;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+    transition: 0.5s all ease-in-out;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-overflow {
+    width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+}
+
+.image-overflow .image-zoom img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
