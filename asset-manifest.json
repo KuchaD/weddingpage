@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/weddingpage/static/css/main.073c9b0a.css",
-    "main.js": "/weddingpage/static/js/main.6052b179.js",
+    "main.css": "/weddingpage/static/css/main.64dedaa1.css",
+    "main.js": "/weddingpage/static/js/main.75ed2cf7.js",
     "static/js/787.0bfccc2a.chunk.js": "/weddingpage/static/js/787.0bfccc2a.chunk.js",
-    "static/media/logo.svg": "/weddingpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/18.jpeg": "/weddingpage/static/media/18.e9aced86af4484f96270.jpeg",
+    "static/media/01.jpg": "/weddingpage/static/media/01.6d218a015dc7918817e2.jpg",
+    "static/media/09.jpeg": "/weddingpage/static/media/09.ff1dff416b7cd3f38d37.jpeg",
+    "static/media/02.jpg": "/weddingpage/static/media/02.8a257ed324c3a6110f0e.jpg",
+    "static/media/13.jpeg": "/weddingpage/static/media/13.6c3774d7fc9915a06685.jpeg",
+    "static/media/15.jpeg": "/weddingpage/static/media/15.2833a83210a12dbea1ca.jpeg",
+    "static/media/05.jpeg": "/weddingpage/static/media/05.f27d1765990f43acac18.jpeg",
+    "static/media/03.jpeg": "/weddingpage/static/media/03.b3782ddedc377ca177b9.jpeg",
+    "static/media/10.jpeg": "/weddingpage/static/media/10.bb0880cd631085ba8d5c.jpeg",
+    "static/media/04.jpeg": "/weddingpage/static/media/04.b6f828802d40a93f3caa.jpeg",
+    "static/media/08.jpeg": "/weddingpage/static/media/08.e274367321ae959dc00e.jpeg",
+    "static/media/17.jpeg": "/weddingpage/static/media/17.4f6c16b7b1c775e77381.jpeg",
+    "static/media/07.jpeg": "/weddingpage/static/media/07.122ccf924bce997e691c.jpeg",
+    "static/media/16.jpeg": "/weddingpage/static/media/16.7029e99dc3a057708040.jpeg",
+    "static/media/11.jpeg": "/weddingpage/static/media/11.96e1b393c1c86dc11774.jpeg",
+    "static/media/12.jpeg": "/weddingpage/static/media/12.00a4b8f6a5af75c2196b.jpeg",
+    "static/media/06.jpeg": "/weddingpage/static/media/06.05ef17abdbfef6d56eb3.jpeg",
+    "static/media/14.jpeg": "/weddingpage/static/media/14.00e6bf39a0e3cb0d53cd.jpeg",
     "index.html": "/weddingpage/index.html",
-    "main.073c9b0a.css.map": "/weddingpage/static/css/main.073c9b0a.css.map",
-    "main.6052b179.js.map": "/weddingpage/static/js/main.6052b179.js.map",
+    "main.64dedaa1.css.map": "/weddingpage/static/css/main.64dedaa1.css.map",
+    "main.75ed2cf7.js.map": "/weddingpage/static/js/main.75ed2cf7.js.map",
     "787.0bfccc2a.chunk.js.map": "/weddingpage/static/js/787.0bfccc2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6052b179.js"
+    "static/css/main.64dedaa1.css",
+    "static/js/main.75ed2cf7.js"
   ]
 }
